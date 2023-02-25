@@ -41,7 +41,7 @@ const RecipeTable = (props: Props) => {
                 {recipe.image ? (
                   <GatsbyImage
                     image={getImage(recipe.image)!}
-                    alt={recipe.image.description || ""}
+                    alt={recipe.image.description || `${recipe.name} image`}
                   />
                 ) : null}
               </TableCell>

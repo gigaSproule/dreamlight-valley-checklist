@@ -1,6 +1,6 @@
-import { Typography } from "@mui/material";
+import { Autocomplete, TextField, Typography } from "@mui/material";
 import { graphql, PageProps } from "gatsby";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import RecipeTable from "../components/recipe-table";
 import { Recipe } from "../types";
 
@@ -27,11 +27,44 @@ type Props = {
 const RecipesPage: React.FC<PageProps<Queries.RecipesPageQuery>> = ({
   data,
 }) => {
+  const [filter, setFilter] = useState<string | null>(null);
+  const [recipes, setRecipes] = useState(data.allContentfulRecipe.nodes);
+
+  useEffect(() => {
+    console.log(filter);
+    if (!filter) {
+      setRecipes(data.allContentfulRecipe.nodes);
+    } else {
+      setRecipes(
+        data.allContentfulRecipe.nodes.filter((recipe) =>
+          recipe.name.toLowerCase().startsWith(filter.toLowerCase())
+        )
+      );
+    }
+  }, [data, filter]);
+
   return (
     <>
       <Typography variant="h1">Recipes</Typography>
 
-      <RecipeTable recipes={data.allContentfulRecipe.nodes} />
+      <Autocomplete
+        freeSolo
+        options={data.allContentfulRecipe.nodes.map((recipe) => recipe.name)}
+        renderInput={(params) => (
+          <TextField
+            {...params}
+            label="Search"
+            InputProps={{
+              ...params.InputProps,
+              type: "search",
+            }}
+          />
+        )}
+        onChange={(event, newValue) => {
+          setFilter(newValue);
+        }}
+      />
+      <RecipeTable recipes={recipes} />
     </>
   );
 };
