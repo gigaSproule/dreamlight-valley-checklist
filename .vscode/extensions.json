@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "orta.vscode-jest",
+    "esbenp.prettier-vscode",
+    "aaron-bond.better-comments",
+    "redhat.fabric8-analytics",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "graphql.vscode-graphql",
+    "graphql.vscode-graphql-syntax",
+    "anweber.vscode-httpyac",
+    "unifiedjs.vscode-remark"
+  ]
+}
