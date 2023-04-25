@@ -1476,15 +1476,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentful/rich-text-react-renderer@npm:^15.16.2":
-  version: 15.16.2
-  resolution: "@contentful/rich-text-react-renderer@npm:15.16.2"
+"@contentful/rich-text-react-renderer@npm:^15.16.3":
+  version: 15.16.3
+  resolution: "@contentful/rich-text-react-renderer@npm:15.16.3"
   dependencies:
-    "@contentful/rich-text-types": ^16.0.2
+    "@contentful/rich-text-types": ^16.0.3
   peerDependencies:
     react: ^16.8.6 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.6 || ^17.0.0 || ^18.0.0
-  checksum: 8c7582d83c8b1fbd0553f3cd79a92066699870a5ebbbe546f9622f660e702ef9f52aa138648478a687fa189394b81216a427a6afb8efc3b17cdd017b55a51829
+  checksum: f6701248712e3a11c996ad394fd4a75bbf64f5764de5f73f0a80040104f9a6ffe54545865313ac63e1b46d005ec643daf348255b83112d1578c959eb6ddd469b
   languageName: node
   linkType: hard
 
@@ -1499,6 +1499,13 @@ __metadata:
   version: 16.0.2
   resolution: "@contentful/rich-text-types@npm:16.0.2"
   checksum: efa9a3e1bcd196f64c61f2ed820188d01aacbca05f5a64efa9d88390b165d9a51f1382bc7bc1305fe0e54e958556ec38f99b7164c073a6af3749dde9b0c84b42
+  languageName: node
+  linkType: hard
+
+"@contentful/rich-text-types@npm:^16.0.3":
+  version: 16.0.3
+  resolution: "@contentful/rich-text-types@npm:16.0.3"
+  checksum: 830c384ec6c5ea9d14ef867291065cbf9935a078b9ac4326db549175ddcd2efbd0f1adf980d9d9f9e9386dfed48745eeb920742230ef2e72bb2773f2c8901824
   languageName: node
   linkType: hard
 
@@ -5321,9 +5328,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"contentful@npm:^9.2.14":
-  version: 9.3.3
-  resolution: "contentful@npm:9.3.3"
+"contentful@npm:^9.3.5":
+  version: 9.3.5
+  resolution: "contentful@npm:9.3.5"
   dependencies:
     "@contentful/rich-text-types": ^16.0.2
     axios: ^0.27.0
@@ -5331,7 +5338,7 @@ __metadata:
     contentful-sdk-core: ^7.0.5
     fast-copy: ^2.1.7
     json-stringify-safe: ^5.0.1
-  checksum: e7a08e28c76224ac02638cd05364fc8b48628f10f6aad94b32f7dee8220e758aeb3f25fb384be37c9bf47cf937f7331fca18b83fed84986d9e8400e755108c38
+  checksum: 85783f497e1091190aea4a631523a08e884f43ce6e88af42e895762ee77d6b7193206a9da023b2a2d4ed18ae57c142d7c2da837897a02f0bc1b4b9c374535504
   languageName: node
   linkType: hard
 
@@ -6117,7 +6124,7 @@ __metadata:
     gatsby-plugin-material-ui: ^4.1.0
     gatsby-plugin-sharp: ^5.8.1
     gatsby-plugin-sitemap: ^6.9.0
-    gatsby-source-contentful: ^8.7.0
+    gatsby-source-contentful: ^8.9.1
     gatsby-source-filesystem: ^5.7.0
     gatsby-transformer-sharp: ^5.7.0
     react: ^18.2.0
@@ -7821,26 +7828,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-source-contentful@npm:^8.7.0":
-  version: 8.7.0
-  resolution: "gatsby-source-contentful@npm:8.7.0"
+"gatsby-source-contentful@npm:^8.9.1":
+  version: 8.9.1
+  resolution: "gatsby-source-contentful@npm:8.9.1"
   dependencies:
     "@babel/runtime": ^7.20.13
-    "@contentful/rich-text-react-renderer": ^15.16.2
+    "@contentful/rich-text-react-renderer": ^15.16.3
     "@contentful/rich-text-types": ^15.15.1
     "@hapi/joi": ^15.1.1
     "@vercel/fetch-retry": ^5.1.3
     chalk: ^4.1.2
     common-tags: ^1.8.2
-    contentful: ^9.2.14
-    fs-extra: ^11.1.0
-    gatsby-core-utils: ^4.7.0
-    gatsby-plugin-utils: ^4.7.0
-    gatsby-source-filesystem: ^5.7.0
+    contentful: ^9.3.5
+    fs-extra: ^11.1.1
+    gatsby-core-utils: ^4.9.0
+    gatsby-plugin-utils: ^4.9.0
+    gatsby-source-filesystem: ^5.9.0
     is-online: ^9.0.1
     json-stringify-safe: ^5.0.1
     lodash: ^4.17.21
-    node-fetch: ^2.6.7
+    node-fetch: ^2.6.9
     semver: ^7.3.8
     url: ^0.11.0
   peerDependencies:
@@ -7848,7 +7855,7 @@ __metadata:
     gatsby-plugin-image: ^3.0.0-next
     gatsby-plugin-sharp: ^5.0.0-next
     sharp: ^0.30.1
-  checksum: 7c887b6ece6654aa28b796a71b1f5ffd66309e1651b3632a83308c8dad934173ea583a2b956e258c47dc1fcc622c2cba04505e077e5c128489b2ff61b1517b9c
+  checksum: 52ba75547c023734a32fa2f5a2f888481157d9aa7d8fdf863313f046a0d2cadd22fcca79a94e81806f5941e4a18806bee7be7f995c9b37c3799e844529da27f2
   languageName: node
   linkType: hard
 
@@ -7868,6 +7875,25 @@ __metadata:
   peerDependencies:
     gatsby: ^5.0.0-next
   checksum: ed9e780c15abf394e96706a850814c45c85f84c1639f84f5ea9aa5a1140fe77f98c5809b8d7d9a24efa87bfe96e09b2e990b3103eed1ca3299614d59a627d0b7
+  languageName: node
+  linkType: hard
+
+"gatsby-source-filesystem@npm:^5.9.0":
+  version: 5.9.0
+  resolution: "gatsby-source-filesystem@npm:5.9.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    chokidar: ^3.5.3
+    file-type: ^16.5.4
+    fs-extra: ^11.1.1
+    gatsby-core-utils: ^4.9.0
+    mime: ^3.0.0
+    pretty-bytes: ^5.6.0
+    valid-url: ^1.0.9
+    xstate: ^4.37.1
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: 26b40f435526696a6ce721650d71ab37e1c28f72fb94d20fe0e320063260c8f93ee8ad66356df40d527fb69e16ba552ae2560e822f90ee85a8ed658a1ca59ef9
   languageName: node
   linkType: hard
 
@@ -10545,7 +10571,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:^2.6.7, node-fetch@npm:^2.6.8, node-fetch@npm:^2.6.9":
+"node-fetch@npm:^2.6.8, node-fetch@npm:^2.6.9":
   version: 2.6.9
   resolution: "node-fetch@npm:2.6.9"
   dependencies:
@@ -14371,6 +14397,13 @@ __metadata:
   version: 4.37.0
   resolution: "xstate@npm:4.37.0"
   checksum: 8eba107721c91ba08934b68a2881f01dd9ab6f23cc2ebcdd91145ce5999db8f690b38cf1570b928c058755150fc5024bed1cafe731ff7e6750d4e64752a7ab5b
+  languageName: node
+  linkType: hard
+
+"xstate@npm:^4.37.1":
+  version: 4.37.1
+  resolution: "xstate@npm:4.37.1"
+  checksum: 919fa88003b081636b4d003ab4eab6e58b582b2c2461b62ddd2eb6356d5795f183e78daa540ba70be711a8daa90db17bd6b3288851a5356e6b4775094d459e1c
   languageName: node
   linkType: hard
 
