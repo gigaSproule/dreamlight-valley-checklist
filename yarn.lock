@@ -1649,7 +1649,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/server@npm:^11.10.0, @emotion/server@npm:^11.4.0":
+"@emotion/server@npm:^11.11.0":
+  version: 11.11.0
+  resolution: "@emotion/server@npm:11.11.0"
+  dependencies:
+    "@emotion/utils": ^1.2.1
+    html-tokenize: ^2.0.0
+    multipipe: ^1.0.2
+    through: ^2.3.8
+  peerDependencies:
+    "@emotion/css": ^11.0.0-rc.0
+  peerDependenciesMeta:
+    "@emotion/css":
+      optional: true
+  checksum: 2130b51390a6ba4375ec3223c9e4fb476ba30973910ec5196a048d1f832ba2ad23e51eee261058fbd7c3c78938fc3d83b01c3a951e8b6fa83d40f2ac4047c317
+  languageName: node
+  linkType: hard
+
+"@emotion/server@npm:^11.4.0":
   version: 11.10.0
   resolution: "@emotion/server@npm:11.10.0"
   dependencies:
@@ -6186,7 +6203,7 @@ __metadata:
   resolution: "dreamlight-valley-checklist@workspace:."
   dependencies:
     "@emotion/react": ^11.11.0
-    "@emotion/server": ^11.10.0
+    "@emotion/server": ^11.11.0
     "@emotion/styled": ^11.11.0
     "@mui/icons-material": ^5.11.9
     "@mui/material": ^5.12.2
