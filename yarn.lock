@@ -6206,7 +6206,7 @@ __metadata:
     gatsby-plugin-sitemap: ^6.9.0
     gatsby-source-contentful: ^8.9.1
     gatsby-source-filesystem: ^5.7.0
-    gatsby-transformer-sharp: ^5.7.0
+    gatsby-transformer-sharp: ^5.9.0
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^5.0.4
@@ -7823,26 +7823,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-utils@npm:^4.7.0":
-  version: 4.7.0
-  resolution: "gatsby-plugin-utils@npm:4.7.0"
-  dependencies:
-    "@babel/runtime": ^7.20.13
-    fastq: ^1.13.0
-    fs-extra: ^11.1.0
-    gatsby-core-utils: ^4.7.0
-    gatsby-sharp: ^1.7.0
-    graphql-compose: ^9.0.10
-    import-from: ^4.0.0
-    joi: ^17.7.0
-    mime: ^3.0.0
-  peerDependencies:
-    gatsby: ^5.0.0-next
-    graphql: ^16.0.0
-  checksum: 26b35b43c1ee732127a87a227a5d851b3bca76dab2ece4dedf0a00214a453af59a1ddca58d075e0c2ae4c780b03616b3235a8265e144bc6518f37891c67b92b3
-  languageName: node
-  linkType: hard
-
 "gatsby-plugin-utils@npm:^4.9.0":
   version: 4.9.0
   resolution: "gatsby-plugin-utils@npm:4.9.0"
@@ -7885,16 +7865,6 @@ __metadata:
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
   checksum: 4611ba1a3fbf64a3d72a38d7b092cc01b7be5bbb6d00b12f65bd8b104053d32588240532acf45aa85017d5b75745749509bfc482980cde7f962a8c1bee7baa57
-  languageName: node
-  linkType: hard
-
-"gatsby-sharp@npm:^1.7.0":
-  version: 1.7.0
-  resolution: "gatsby-sharp@npm:1.7.0"
-  dependencies:
-    "@types/sharp": ^0.31.1
-    sharp: ^0.31.3
-  checksum: 7e084fdb3fb72ac1a5d395b412e41f171da8edebc8c38144c24b165b68c9e0e1115b6e1c32e825be091a91752be0a905cf875ad47d81368d0d566bb9ff975cb6
   languageName: node
   linkType: hard
 
@@ -7997,22 +7967,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-transformer-sharp@npm:^5.7.0":
-  version: 5.7.0
-  resolution: "gatsby-transformer-sharp@npm:5.7.0"
+"gatsby-transformer-sharp@npm:^5.9.0":
+  version: 5.9.0
+  resolution: "gatsby-transformer-sharp@npm:5.9.0"
   dependencies:
     "@babel/runtime": ^7.20.13
     bluebird: ^3.7.2
     common-tags: ^1.8.2
-    fs-extra: ^11.1.0
-    gatsby-plugin-utils: ^4.7.0
+    fs-extra: ^11.1.1
+    gatsby-plugin-utils: ^4.9.0
     probe-image-size: ^7.2.3
     semver: ^7.3.8
     sharp: ^0.31.3
   peerDependencies:
     gatsby: ^5.0.0-next
     gatsby-plugin-sharp: ^5.0.0-next
-  checksum: d2bcac22adb6dfbde7f8593e92ee87355294ad9e59bf79f0df25cae936724edc1848fe343f2745363b5c64ff22fc30266e86638cd62a567a4da87ed32a224b02
+  checksum: 9cd82bea752f9c08da8828f551b2ccd84af68b3263178135d2e2af90392ef57e4fe508c0b8ab06e8420909335caaf7302d117a2287903d4c49ecf0d3a9b09046
   languageName: node
   linkType: hard
 
