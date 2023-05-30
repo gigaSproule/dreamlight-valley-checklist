@@ -27,7 +27,7 @@
     "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-manifest": "^5.10.0",
     "gatsby-plugin-material-ui": "^4.1.0",
-    "gatsby-plugin-sharp": "^5.8.1",
+    "gatsby-plugin-sharp": "^5.10.0",
     "gatsby-plugin-sitemap": "^6.10.0",
     "gatsby-source-contentful": "^8.9.1",
     "gatsby-source-filesystem": "^5.7.0",
