@@ -6236,7 +6236,7 @@ __metadata:
     gatsby-plugin-manifest: ^5.10.0
     gatsby-plugin-material-ui: ^4.1.0
     gatsby-plugin-sharp: ^5.10.0
-    gatsby-plugin-sitemap: ^6.10.0
+    gatsby-plugin-sitemap: ^6.11.0
     gatsby-source-contentful: ^8.10.0
     gatsby-source-filesystem: ^5.10.0
     gatsby-transformer-sharp: ^5.10.0
@@ -7788,9 +7788,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-sitemap@npm:^6.10.0":
-  version: 6.10.0
-  resolution: "gatsby-plugin-sitemap@npm:6.10.0"
+"gatsby-plugin-sitemap@npm:^6.11.0":
+  version: 6.11.0
+  resolution: "gatsby-plugin-sitemap@npm:6.11.0"
   dependencies:
     "@babel/runtime": ^7.20.13
     common-tags: ^1.8.2
@@ -7800,7 +7800,7 @@ __metadata:
     gatsby: ^5.0.0-next
     react: ^18.0.0 || ^0.0.0
     react-dom: ^18.0.0 || ^0.0.0
-  checksum: f4d615ef5072f43f452748362e65a5f568fd46190dd68c6966f783556da805dcfa483aee4e42b191d8a26f8f6e0ab514c066b793d6336214cad094d9d3bfe107
+  checksum: 0bb1a778d35b9f951953a8fcb254db72f8825e988308cd57ba39b443a110334068164c18c4e42d81661360a02280d8ee74065d15743e7e6a3d334d5abcbeeb64
   languageName: node
   linkType: hard
 
