@@ -6252,7 +6252,7 @@ __metadata:
     gatsby-plugin-sharp: ^5.11.0
     gatsby-plugin-sitemap: ^6.11.0
     gatsby-source-contentful: ^8.10.0
-    gatsby-source-filesystem: ^5.10.0
+    gatsby-source-filesystem: ^5.11.0
     gatsby-transformer-sharp: ^5.11.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -7989,6 +7989,25 @@ __metadata:
   peerDependencies:
     gatsby: ^5.0.0-next
   checksum: 10b3d187556b89e99930038e5dede24528372f70496b2cd7610350e932403f58804c74b14391bb82b249c713dbd3546fa6df3ecb1369a470e6c36bfca977b38c
+  languageName: node
+  linkType: hard
+
+"gatsby-source-filesystem@npm:^5.11.0":
+  version: 5.11.0
+  resolution: "gatsby-source-filesystem@npm:5.11.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    chokidar: ^3.5.3
+    file-type: ^16.5.4
+    fs-extra: ^11.1.1
+    gatsby-core-utils: ^4.11.0
+    mime: ^3.0.0
+    pretty-bytes: ^5.6.0
+    valid-url: ^1.0.9
+    xstate: ^4.37.2
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: f697e2012c4d56764388a62ff26a97de33bae2d0085043f43cb904b0d8f24ed0a18b5559e5b71fc8c31f6198a73c421484e6d4fdda40d41f45675bc4a1596870
   languageName: node
   linkType: hard
 
