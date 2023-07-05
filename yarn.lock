@@ -1485,15 +1485,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentful/rich-text-react-renderer@npm:^15.16.3":
-  version: 15.16.3
-  resolution: "@contentful/rich-text-react-renderer@npm:15.16.3"
+"@contentful/rich-text-react-renderer@npm:^15.16.5":
+  version: 15.17.0
+  resolution: "@contentful/rich-text-react-renderer@npm:15.17.0"
   dependencies:
-    "@contentful/rich-text-types": ^16.0.3
+    "@contentful/rich-text-types": ^16.2.0
   peerDependencies:
     react: ^16.8.6 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.6 || ^17.0.0 || ^18.0.0
-  checksum: f6701248712e3a11c996ad394fd4a75bbf64f5764de5f73f0a80040104f9a6ffe54545865313ac63e1b46d005ec643daf348255b83112d1578c959eb6ddd469b
+  checksum: 3b2d44954fdb7bb125ac0a3234b7eac40e59aa1585a1c1a193c5cd797e09dbbe51f34ad2e912f64e6c3fb3de537606d4219cff6e62d2ec250a4992fcce188c32
   languageName: node
   linkType: hard
 
@@ -1511,10 +1511,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentful/rich-text-types@npm:^16.0.3":
-  version: 16.0.3
-  resolution: "@contentful/rich-text-types@npm:16.0.3"
-  checksum: 830c384ec6c5ea9d14ef867291065cbf9935a078b9ac4326db549175ddcd2efbd0f1adf980d9d9f9e9386dfed48745eeb920742230ef2e72bb2773f2c8901824
+"@contentful/rich-text-types@npm:^16.2.0":
+  version: 16.2.0
+  resolution: "@contentful/rich-text-types@npm:16.2.0"
+  checksum: ec9390201e7e7c1419b61efee12845169665b336fe866132515f61ed7ab6753a997d1336b13cb2962eb48db01deef4a5a035e929344eec41f1b58227d78ecff9
   languageName: node
   linkType: hard
 
@@ -6251,7 +6251,7 @@ __metadata:
     gatsby-plugin-material-ui: ^4.1.0
     gatsby-plugin-sharp: ^5.11.0
     gatsby-plugin-sitemap: ^6.11.0
-    gatsby-source-contentful: ^8.10.0
+    gatsby-source-contentful: ^8.11.0
     gatsby-source-filesystem: ^5.11.0
     gatsby-transformer-sharp: ^5.11.0
     react: ^18.2.0
@@ -7942,12 +7942,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-source-contentful@npm:^8.10.0":
-  version: 8.10.0
-  resolution: "gatsby-source-contentful@npm:8.10.0"
+"gatsby-source-contentful@npm:^8.11.0":
+  version: 8.11.0
+  resolution: "gatsby-source-contentful@npm:8.11.0"
   dependencies:
     "@babel/runtime": ^7.20.13
-    "@contentful/rich-text-react-renderer": ^15.16.3
+    "@contentful/rich-text-react-renderer": ^15.16.5
     "@contentful/rich-text-types": ^15.15.1
     "@hapi/joi": ^15.1.1
     "@vercel/fetch-retry": ^5.1.3
@@ -7955,40 +7955,21 @@ __metadata:
     common-tags: ^1.8.2
     contentful: ^9.3.5
     fs-extra: ^11.1.1
-    gatsby-core-utils: ^4.10.0
-    gatsby-plugin-utils: ^4.10.0
-    gatsby-source-filesystem: ^5.10.0
+    gatsby-core-utils: ^4.11.0
+    gatsby-plugin-utils: ^4.11.0
+    gatsby-source-filesystem: ^5.11.0
     is-online: ^9.0.1
     json-stringify-safe: ^5.0.1
     lodash: ^4.17.21
-    node-fetch: ^2.6.9
-    semver: ^7.5.0
+    node-fetch: ^2.6.11
+    semver: ^7.5.1
     url: ^0.11.0
   peerDependencies:
     gatsby: ^5.0.0-next
     gatsby-plugin-image: ^3.0.0-next
     gatsby-plugin-sharp: ^5.0.0-next
     sharp: ^0.30.1
-  checksum: 2e3eac73323151e21b76f22eec6d43a807b35f0b46bcaef2a2dc3a64a8077371d3acbeaccb3cfa651349ce2b81cf992634ed4b61be1a0b4ea5aae384860b5aea
-  languageName: node
-  linkType: hard
-
-"gatsby-source-filesystem@npm:^5.10.0":
-  version: 5.10.0
-  resolution: "gatsby-source-filesystem@npm:5.10.0"
-  dependencies:
-    "@babel/runtime": ^7.20.13
-    chokidar: ^3.5.3
-    file-type: ^16.5.4
-    fs-extra: ^11.1.1
-    gatsby-core-utils: ^4.10.0
-    mime: ^3.0.0
-    pretty-bytes: ^5.6.0
-    valid-url: ^1.0.9
-    xstate: ^4.37.2
-  peerDependencies:
-    gatsby: ^5.0.0-next
-  checksum: 10b3d187556b89e99930038e5dede24528372f70496b2cd7610350e932403f58804c74b14391bb82b249c713dbd3546fa6df3ecb1369a470e6c36bfca977b38c
+  checksum: fa2d2ecb9e9578191c4c309ecdbf354062a6318557ae0f23f162d31a272c3982a460bcc11f628403aa5d031ed22d7b45c11b6e6d7229ed3114df20ce4d8e7f9e
   languageName: node
   linkType: hard
 
@@ -10678,6 +10659,20 @@ __metadata:
     encoding:
       optional: true
   checksum: 8d816ffd1ee22cab8301c7756ef04f3437f18dace86a1dae22cf81db8ef29c0bf6655f3215cb0cdb22b420b6fe141e64b26905e7f33f9377a7fa59135ea3e10b
+  languageName: node
+  linkType: hard
+
+"node-fetch@npm:^2.6.11":
+  version: 2.6.12
+  resolution: "node-fetch@npm:2.6.12"
+  dependencies:
+    whatwg-url: ^5.0.0
+  peerDependencies:
+    encoding: ^0.1.0
+  peerDependenciesMeta:
+    encoding:
+      optional: true
+  checksum: 3bc1655203d47ee8e313c0d96664b9673a3d4dd8002740318e9d27d14ef306693a4b2ef8d6525775056fd912a19e23f3ac0d7111ad8925877b7567b29a625592
   languageName: node
   linkType: hard
 
