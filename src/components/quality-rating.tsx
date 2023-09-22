@@ -8,8 +8,8 @@ type Props = {
 const QualityRating = (props: Props) => {
   return (
     <>
-      {[...Array(props.qualityRating).keys()].map(() => (
-        <Star />
+      {[...Array(props.qualityRating).keys()].map((num) => (
+        <Star key={num} />
       ))}
     </>
   );
