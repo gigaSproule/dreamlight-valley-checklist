@@ -1396,15 +1396,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.26.1":
-  version: 0.26.1
-  resolution: "axios@npm:0.26.1"
-  dependencies:
-    follow-redirects: "npm:^1.14.8"
-  checksum: 77ad7f1e6ca04fcd3fa8af1795b09d8b7c005b71a31f28d99ba40cda0bdcc12a4627801d7fac5efa62b9f667a8402bd54c669039694373bc8d44f6be611f785c
-  languageName: node
-  linkType: hard
-
 "axios@npm:^1.4.0, axios@npm:^1.6.0, axios@npm:^1.6.2":
   version: 1.6.2
   resolution: "axios@npm:1.6.2"
@@ -1600,12 +1591,12 @@ __metadata:
   linkType: hard
 
 "cf-content-types-generator@npm:^2.12.2":
-  version: 2.12.9
-  resolution: "cf-content-types-generator@npm:2.12.9"
+  version: 2.12.10
+  resolution: "cf-content-types-generator@npm:2.12.10"
   dependencies:
     "@oclif/core": "npm:^2.11.6"
     "@oclif/plugin-help": "npm:^5.2.18"
-    contentful: "npm:10.1.8"
+    contentful: "npm:^10.6.1"
     contentful-export: "npm:^7.19.77"
     contentful-management: "npm:^10.40.1"
     fs-extra: "npm:^11.1.1"
@@ -1613,7 +1604,7 @@ __metadata:
     ts-morph: "npm:^19.0.0"
   bin:
     cf-content-types-generator: bin/run
-  checksum: bf1d3783b7df389daf9a35d37906ed2073ffe797d536e111c1b4445e82562efac2ab184490542bd238e8c9a0a0894f2e55468cd232c70b694598b860f91b29cc
+  checksum: 7faee8d321de6d616e25f202569fd2da00991dc0f6c7a46aa16b60b6935669f6f020b58aff5c60b216eb7b9ed48c81b7cdef608989e93be675e6215b297d7362
   languageName: node
   linkType: hard
 
@@ -1904,25 +1895,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"contentful-resolve-response@npm:^1.3.6, contentful-resolve-response@npm:^1.8.1":
+"contentful-resolve-response@npm:^1.8.1":
   version: 1.8.1
   resolution: "contentful-resolve-response@npm:1.8.1"
   dependencies:
     fast-copy: "npm:^2.1.7"
   checksum: 5d147b94815b9227405e512be5202be312d80fa0b61732c128094c1c73a16b5d4fbf7c9f68e93dc2d1b648a99f380fb9be7d1890fadac9ed2e736723c78dc555
-  languageName: node
-  linkType: hard
-
-"contentful-sdk-core@npm:^7.0.2":
-  version: 7.1.0
-  resolution: "contentful-sdk-core@npm:7.1.0"
-  dependencies:
-    fast-copy: "npm:^2.1.7"
-    lodash.isplainobject: "npm:^4.0.6"
-    lodash.isstring: "npm:^4.0.1"
-    p-throttle: "npm:^4.1.1"
-    qs: "npm:^6.9.4"
-  checksum: 798cb8c976bc817edcc46c82c197f792e658743bab27c166e229251f6f9d76222758e0b4865d732c996ab5cadbb6fae8ad0785fbe579a95cbe26b62907e00ca2
   languageName: node
   linkType: hard
 
@@ -1939,21 +1917,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"contentful@npm:10.1.8":
-  version: 10.1.8
-  resolution: "contentful@npm:10.1.8"
-  dependencies:
-    "@contentful/rich-text-types": "npm:^16.0.2"
-    axios: "npm:^0.26.1"
-    contentful-resolve-response: "npm:^1.3.6"
-    contentful-sdk-core: "npm:^7.0.2"
-    json-stringify-safe: "npm:^5.0.1"
-    type-fest: "npm:^3.1.0"
-  checksum: e22138395ca395297ebacef3bf43399eee33086630b36ebd11cb5a16e831fb7f037751ee7c01867b631445a177bf1f5d6e0e207ef77d439c69b088ffa41c7c87
-  languageName: node
-  linkType: hard
-
-"contentful@npm:^10.5.2, contentful@npm:^10.6.9":
+"contentful@npm:^10.5.2, contentful@npm:^10.6.1, contentful@npm:^10.6.9":
   version: 10.6.14
   resolution: "contentful@npm:10.6.14"
   dependencies:
@@ -2895,7 +2859,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.14.8, follow-redirects@npm:^1.15.0":
+"follow-redirects@npm:^1.15.0":
   version: 1.15.3
   resolution: "follow-redirects@npm:1.15.3"
   peerDependenciesMeta:
@@ -5100,7 +5064,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:^6.11.2, qs@npm:^6.9.4":
+"qs@npm:^6.11.2":
   version: 6.11.2
   resolution: "qs@npm:6.11.2"
   dependencies:
@@ -6124,13 +6088,6 @@ __metadata:
   version: 0.21.3
   resolution: "type-fest@npm:0.21.3"
   checksum: 902bd57bfa30d51d4779b641c2bc403cdf1371fb9c91d3c058b0133694fcfdb817aef07a47f40faf79039eecbaa39ee9d3c532deff244f3a19ce68cea71a61e8
-  languageName: node
-  linkType: hard
-
-"type-fest@npm:^3.1.0":
-  version: 3.13.1
-  resolution: "type-fest@npm:3.13.1"
-  checksum: 547d22186f73a8c04590b70dcf63baff390078c75ea8acd366bbd510fd0646e348bd1970e47ecf795b7cff0b41d26e9c475c1fedd6ef5c45c82075fbf916b629
   languageName: node
   linkType: hard
 
