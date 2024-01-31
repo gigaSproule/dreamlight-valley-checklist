@@ -847,11 +847,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:^20.5.1":
-  version: 20.11.10
-  resolution: "@types/node@npm:20.11.10"
+  version: 20.11.13
+  resolution: "@types/node@npm:20.11.13"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/aced8595c2786d4e60471772659add1e2e0d1f2b73d119820b2e1815426d6e52c6a77f1c7fca8ea46490c36f7959cc46b0dc609fa2e80b7fd24f9a7d696c2210
+  checksum: 10c0/8ff8526fa0dbabcf4e9c538c6a7220675f750c39d0794e34998daa0656d7e0dfdf3e47403d2ab8beb756422a517e1f2646b4494afa59ef330495d65fc58fa4d8
   languageName: node
   linkType: hard
 
@@ -1877,8 +1877,8 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^10.5.2, contentful@npm:^10.6.1, contentful@npm:^10.6.9":
-  version: 10.6.19
-  resolution: "contentful@npm:10.6.19"
+  version: 10.6.21
+  resolution: "contentful@npm:10.6.21"
   dependencies:
     "@contentful/rich-text-types": "npm:^16.0.2"
     axios: "npm:^1.6.0"
@@ -1886,7 +1886,7 @@ __metadata:
     contentful-sdk-core: "npm:^8.1.0"
     json-stringify-safe: "npm:^5.0.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/56ff7c6fe9d5f8538be3714eab1160c35e360a16f3d4da72d73120f75541b19b0c44a974b6508358b7103e7cd5c38fae3c1685168c413f8d546980de505d625e
+  checksum: 10c0/7228c16520771b95a6b0ce1b396847d5ffa4e4239a178dbb96b1dfe816d91e4ae0f6476eb4d88cc34e0a995dc88937238ce8496f4d9fc77708b7bf8d0c065dd3
   languageName: node
   linkType: hard
 
