@@ -1349,7 +1349,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.4.0, axios@npm:^1.6.0, axios@npm:^1.6.2":
+"axios@npm:^1.4.0, axios@npm:^1.6.2, axios@npm:^1.6.7":
   version: 1.6.7
   resolution: "axios@npm:1.6.7"
   dependencies:
@@ -1893,16 +1893,16 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^10.5.2, contentful@npm:^10.6.1, contentful@npm:^10.6.9":
-  version: 10.6.21
-  resolution: "contentful@npm:10.6.21"
+  version: 10.6.22
+  resolution: "contentful@npm:10.6.22"
   dependencies:
     "@contentful/rich-text-types": "npm:^16.0.2"
-    axios: "npm:^1.6.0"
+    axios: "npm:^1.6.7"
     contentful-resolve-response: "npm:^1.8.1"
     contentful-sdk-core: "npm:^8.1.0"
     json-stringify-safe: "npm:^5.0.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/7228c16520771b95a6b0ce1b396847d5ffa4e4239a178dbb96b1dfe816d91e4ae0f6476eb4d88cc34e0a995dc88937238ce8496f4d9fc77708b7bf8d0c065dd3
+  checksum: 10c0/c48cd41592838ba2de5f51f9b13f741bf9747b26de719b9a792b49a2b8082a9a6e5d3f8a27fd3d47fabe912be56e50dc65c3c4ab0c9cc463051885aa079b5bd3
   languageName: node
   linkType: hard
 
