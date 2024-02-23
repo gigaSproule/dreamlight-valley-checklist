@@ -24,7 +24,7 @@
     "cf-content-types-generator": "^2.12.2",
     "contentful": "^10.5.2",
     "dotenv": "^16.3.1",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "eslint-config-next": "14.1.0",
     "next": "14.1.0",
     "postcss": "8.4.35",
