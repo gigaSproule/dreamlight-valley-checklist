@@ -732,8 +732,8 @@ __metadata:
   linkType: hard
 
 "@oclif/core@npm:^3.16.0, @oclif/core@npm:^3.26.2":
-  version: 3.26.3
-  resolution: "@oclif/core@npm:3.26.3"
+  version: 3.26.4
+  resolution: "@oclif/core@npm:3.26.4"
   dependencies:
     "@types/cli-progress": "npm:^3.11.5"
     ansi-escapes: "npm:^4.3.2"
@@ -763,7 +763,7 @@ __metadata:
     widest-line: "npm:^3.1.0"
     wordwrap: "npm:^1.0.0"
     wrap-ansi: "npm:^7.0.0"
-  checksum: 10c0/66cee683f01225a46c9eaea6bb62b293212b0c323566c0dd92bcb3ab66818d4c11e3fe0782f2c801e3783c8d94c95413c91482791b4e1491bd6119830f88880a
+  checksum: 10c0/c67ccf987fc470bf221b99746e195a480e23abca543b9045d037a40dc27b4f11d6d1c66afd6c6f614154b184439938825dcb8c33dc313a14334f1e4bd036da30
   languageName: node
   linkType: hard
 
@@ -1537,9 +1537,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001587, caniuse-lite@npm:^1.0.30001599":
-  version: 1.0.30001610
-  resolution: "caniuse-lite@npm:1.0.30001610"
-  checksum: 10c0/015956a0bf2e3e233da3dc00c5632bbb4d416bcd6ced2f839e33e45b197a856234f97cb046e7427b83d7e3a3d6df314dfab1c86eb9d970970e00ad85a50b4933
+  version: 1.0.30001612
+  resolution: "caniuse-lite@npm:1.0.30001612"
+  checksum: 10c0/d6b405ff06f4e913bc779f9183fa68001c9d6b8526a7dd1b99c60587dd21a01aa8def3d8462cf6214f0181f1c21b9245611ff65241cf9c967fc742e86ece5065
   languageName: node
   linkType: hard
 
@@ -1866,8 +1866,8 @@ __metadata:
   linkType: hard
 
 "contentful-management@npm:^11.0.1":
-  version: 11.24.5
-  resolution: "contentful-management@npm:11.24.5"
+  version: 11.25.0
+  resolution: "contentful-management@npm:11.25.0"
   dependencies:
     "@contentful/rich-text-types": "npm:^16.3.0"
     "@types/json-patch": "npm:0.0.30"
@@ -1876,7 +1876,7 @@ __metadata:
     fast-copy: "npm:^3.0.0"
     lodash.isplainobject: "npm:^4.0.6"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/cb0a62beb2be62347fd88b89c646ccfc60b139b9a52459cc86aff78420c22b5bc76c68a8a3e1bd5ad9c2f8d4c988004fa492c5d8ef66faf30345f6c954395db7
+  checksum: 10c0/263878dcb84be5f289a144e9be0b478e932a4ee1ba8984563837533aa13d5982b6d62e927fba19c3e12d97859cd799c258a9c8361ede8c2ea3abc279f0e19cea
   languageName: node
   linkType: hard
 
@@ -2211,9 +2211,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.668":
-  version: 1.4.736
-  resolution: "electron-to-chromium@npm:1.4.736"
-  checksum: 10c0/f3acb515dcb9333b318f9a8ee80a0c3975162da6cc45d9c00152e0de7004b2bfe1246fe6cdf0c41a1b7016780bd4324aff848830aba4227cb55480c1aa32d248
+  version: 1.4.745
+  resolution: "electron-to-chromium@npm:1.4.745"
+  checksum: 10c0/2dd1842e0ee84f88e78ee6e81dbd9dd554a589cf612ab2e5920d8be837aaea78b4c00cf189e545ee25d36777514fed80c11c9a867b2194f94f173d063873ec18
   languageName: node
   linkType: hard
 
