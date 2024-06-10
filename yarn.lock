@@ -1667,9 +1667,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001599, caniuse-lite@npm:^1.0.30001629":
-  version: 1.0.30001629
-  resolution: "caniuse-lite@npm:1.0.30001629"
-  checksum: 10c0/e95136a423c0c5e7f9d026ef3f9be8d06cadc4c83ad65eedfaeaba6b5eb814489ea186e90bae1085f3be7348577e25f8fe436b384c2f983324ad8dea4a7dfe1d
+  version: 1.0.30001632
+  resolution: "caniuse-lite@npm:1.0.30001632"
+  checksum: 10c0/960af2c7ed4367d6b72a164ecb9050ea9eada28c61e2134baaa712862364b9b6b41247c3ff4c2a497f91e879c5a1c9c7713080ac2d0c72eb4bee5ef2f4e24d62
   languageName: node
   linkType: hard
 
@@ -2040,8 +2040,8 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^10.5.2, contentful@npm:^10.6.1, contentful@npm:^10.6.9":
-  version: 10.11.9
-  resolution: "contentful@npm:10.11.9"
+  version: 10.11.10
+  resolution: "contentful@npm:10.11.10"
   dependencies:
     "@contentful/content-source-maps": "npm:^0.5.0"
     "@contentful/rich-text-types": "npm:^16.0.2"
@@ -2050,7 +2050,7 @@ __metadata:
     contentful-sdk-core: "npm:^8.1.0"
     json-stringify-safe: "npm:^5.0.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/3685f4d80030205b15f8b59859c33f43a1f0d50cd7830cea985a258ef7fbcc172b1e68d34e469292758dd3f3f93af5f9a865c4d6ddfb7f750a93cc3c7e427adf
+  checksum: 10c0/a4ea5172222b69b8c6dcc1561eadee7e8365503f628615e6b40eed81bd40df5a88f68c1c39ca68754773847da295c8fa70337e282a48b9529c50cf88e63e7f50
   languageName: node
   linkType: hard
 
