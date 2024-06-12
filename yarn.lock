@@ -1715,8 +1715,8 @@ __metadata:
   linkType: hard
 
 "cf-content-types-generator@npm:^2.12.2":
-  version: 2.15.2
-  resolution: "cf-content-types-generator@npm:2.15.2"
+  version: 2.15.3
+  resolution: "cf-content-types-generator@npm:2.15.3"
   dependencies:
     "@oclif/core": "npm:^3.16.0"
     "@oclif/plugin-help": "npm:^6.0.9"
@@ -1728,7 +1728,7 @@ __metadata:
     ts-morph: "npm:^19.0.0"
   bin:
     cf-content-types-generator: bin/run
-  checksum: 10c0/1f29db4606ec2b8993fdc1f00364094eb2e19bcde95ade5661268ce53e8fba515149e84f3ce929ac45abd5e9e8d94a598c635d3cf22710fab81ca4a18a09d7c2
+  checksum: 10c0/42075e2736b2b26ca92685a6f7db1180df1cb8366053c56f65b9200f44a12bfb3eb12235167c5dc7888f33323ca8133658a3523c1ebb5830c3d02c3fc8fa48f0
   languageName: node
   linkType: hard
 
