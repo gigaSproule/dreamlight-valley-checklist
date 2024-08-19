@@ -884,20 +884,20 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 22.4.0
-  resolution: "@types/node@npm:22.4.0"
+  version: 22.4.1
+  resolution: "@types/node@npm:22.4.1"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/84cd094b19a27e0db425f1d02614e4f7ac59b5eb3b21e288c8f8d4d0a4c9ad370107bc1a649d4c2b4e810cd133feea26e0bbf7e7c617f93e9e139d6d2568cf50
+  checksum: 10c0/e42607438fcbd3a6aebd09084868fa0b22a4b0daf9eda79ed615df7ff8ae95e35ea56e090e1f3140ebae76b640abe42d4a6d5b60c0819eadf499adca737305b6
   languageName: node
   linkType: hard
 
 "@types/node@npm:^20.5.1":
-  version: 20.16.0
-  resolution: "@types/node@npm:20.16.0"
+  version: 20.16.1
+  resolution: "@types/node@npm:20.16.1"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/ad8e11e654af99b3556397c87a495cf3cf5d3e8e8bfa1f60e14d255763e9cde7e703d7309fb7c39e89c1191281f2759cb8314f36dee2ae0bf8779123fc85d90c
+  checksum: 10c0/cac13c0f42467df3254805a671ca9e74a6eb7c41568de972e26b10dcc448a45743aaf00e9e5fce4a9214da5bc8444fe902918e105dac5a224e24e83fd9989a97
   languageName: node
   linkType: hard
 
@@ -1390,18 +1390,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.4.0, axios@npm:^1.7.2":
-  version: 1.7.3
-  resolution: "axios@npm:1.7.3"
-  dependencies:
-    follow-redirects: "npm:^1.15.6"
-    form-data: "npm:^4.0.0"
-    proxy-from-env: "npm:^1.1.0"
-  checksum: 10c0/a18cbe559203efa05fb1fec2d1898e23bf6329bd2575784ee32aa11b5bbe1d54b9f472c49a261294125519cf62aa4fe5ef6e647bb7482eafc15bffe15ab314ce
-  languageName: node
-  linkType: hard
-
-"axios@npm:^1.7.4":
+"axios@npm:^1.4.0, axios@npm:^1.7.2, axios@npm:^1.7.4":
   version: 1.7.4
   resolution: "axios@npm:1.7.4"
   dependencies:
@@ -1874,8 +1863,8 @@ __metadata:
   linkType: hard
 
 "contentful-export@npm:^7.19.77":
-  version: 7.19.145
-  resolution: "contentful-export@npm:7.19.145"
+  version: 7.19.147
+  resolution: "contentful-export@npm:7.19.147"
   dependencies:
     bfj: "npm:^8.0.0"
     bluebird: "npm:^3.3.3"
@@ -1895,7 +1884,7 @@ __metadata:
     yargs: "npm:^17.1.1"
   bin:
     contentful-export: bin/contentful-export
-  checksum: 10c0/05fe0b1e814d1bc308497db8651626ede6bb5427d0e2cfe219c62a2cd83c0b79595d9a8fda41ed4a0f2bc845bcff8606df2fde0c6f5ba9572e756cebb7a18bb5
+  checksum: 10c0/5f9804f5a60435ff36161cb46f9d44eb2405b11e9db8ea787c71ded3d4e4c424c1d8dde5b7d264d38ea92dec1a00145476bf897394418061ea2afaec557ebfa6
   languageName: node
   linkType: hard
 
@@ -1915,14 +1904,14 @@ __metadata:
   linkType: hard
 
 "contentful-management@npm:^11.0.1":
-  version: 11.31.1
-  resolution: "contentful-management@npm:11.31.1"
+  version: 11.31.6
+  resolution: "contentful-management@npm:11.31.6"
   dependencies:
     "@contentful/rich-text-types": "npm:^16.6.1"
     axios: "npm:^1.7.2"
     contentful-sdk-core: "npm:^8.3.1"
     fast-copy: "npm:^3.0.0"
-  checksum: 10c0/59a6f97f2c982cd3b363268e04831688bd41aa7ccddaec851bd2f5b9ff054a20f0d157d20ffc5e7f9de9fc9e60da753519ab827aa51cad92a138fcf16d9c8f6b
+  checksum: 10c0/b6a1c74afe1cb6a0d93c505451bafa70c61e9b67214b6c4767f4f4b19b9ce21a2c6ad078b9026fcef23bd33242a84f2af7677447569a24250638986a9967fbcf
   languageName: node
   linkType: hard
 
@@ -2277,9 +2266,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.4":
-  version: 1.5.6
-  resolution: "electron-to-chromium@npm:1.5.6"
-  checksum: 10c0/1dfef4feaa9f4e5231b8b0697f1f55623eb2ffd263b50e6d4ff995a0927653997ba116640ae06786661f8d24c7b99fa6727c0796e9c60d748f473674d78ab31e
+  version: 1.5.11
+  resolution: "electron-to-chromium@npm:1.5.11"
+  checksum: 10c0/87b4c0c959009d3fa1120c73eb277c3fced527e4348c798384daf044b15cfb30bbaa5004e772ef016c5b2a70ee06bb8f756fb85fe3986d66c12d9f702c1fc5bc
   languageName: node
   linkType: hard
 
@@ -3418,9 +3407,9 @@ __metadata:
   linkType: hard
 
 "ignore@npm:^5.2.0":
-  version: 5.3.1
-  resolution: "ignore@npm:5.3.1"
-  checksum: 10c0/703f7f45ffb2a27fb2c5a8db0c32e7dee66b33a225d28e8db4e1be6474795f606686a6e3bcc50e1aa12f2042db4c9d4a7d60af3250511de74620fbed052ea4cd
+  version: 5.3.2
+  resolution: "ignore@npm:5.3.2"
+  checksum: 10c0/f9f652c957983634ded1e7f02da3b559a0d4cc210fca3792cb67f1b153623c9c42efdc1c4121af171e295444459fc4a9201101fb041b1104a3c000bccb188337
   languageName: node
   linkType: hard
 
@@ -5107,12 +5096,12 @@ __metadata:
   linkType: hard
 
 "postcss-selector-parser@npm:^6.0.11, postcss-selector-parser@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "postcss-selector-parser@npm:6.1.1"
+  version: 6.1.2
+  resolution: "postcss-selector-parser@npm:6.1.2"
   dependencies:
     cssesc: "npm:^3.0.0"
     util-deprecate: "npm:^1.0.2"
-  checksum: 10c0/5608765e033fee35d448e1f607ffbaa750eb86901824a8bc4a911ea8bc137cb82f29239330787427c5d3695afd90d8721e190f211dbbf733e25033d8b3100763
+  checksum: 10c0/523196a6bd8cf660bdf537ad95abd79e546d54180f9afb165a4ab3e651ac705d0f8b8ce6b3164fb9e3279ce482c5f751a69eb2d3a1e8eb0fd5e82294fb3ef13e
   languageName: node
   linkType: hard
 
@@ -6233,9 +6222,9 @@ __metadata:
   linkType: hard
 
 "type-fest@npm:^4.0.0":
-  version: 4.24.0
-  resolution: "type-fest@npm:4.24.0"
-  checksum: 10c0/9770471a397733b17b5a9ce48ee5a4d6c042c84a4858ff4e15abd126f351c61b5fea8b7b5e55bfa34840098a920b915d5ff878db1b3c007a2512a6a9c7f21579
+  version: 4.25.0
+  resolution: "type-fest@npm:4.25.0"
+  checksum: 10c0/1187b30d74e72f4b0b44a3493d2c1c2a9dc46423961c8250bd1535e976c4b8afc3916f6b4b90d7f56ed5b2f36d1645b05c318b4915fe4909a8a66890bda1d68d
   languageName: node
   linkType: hard
 
