@@ -135,12 +135,12 @@ __metadata:
   linkType: hard
 
 "@contentful/content-source-maps@npm:^0.11.0":
-  version: 0.11.2
-  resolution: "@contentful/content-source-maps@npm:0.11.2"
+  version: 0.11.3
+  resolution: "@contentful/content-source-maps@npm:0.11.3"
   dependencies:
     "@vercel/stega": "npm:^0.1.2"
     json-pointer: "npm:^0.6.2"
-  checksum: 10c0/888523049e349fe2677a5e3f169c9d1abb358d676c148086b4d34598038aea27a7fc2e48c359cab0aca62fad4da240100d73a18d2196982987226078dff24b14
+  checksum: 10c0/429ae89d7177604851cd971c5973890a2f0cb8506c26020e24764d48094a2fc9ca720d81518f1e8cac248a2b5e8c78902c6038be83b13ac8a48619d64cee6ad9
   languageName: node
   linkType: hard
 
@@ -191,11 +191,11 @@ __metadata:
   linkType: hard
 
 "@emotion/is-prop-valid@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@emotion/is-prop-valid@npm:1.3.0"
+  version: 1.3.1
+  resolution: "@emotion/is-prop-valid@npm:1.3.1"
   dependencies:
     "@emotion/memoize": "npm:^0.9.0"
-  checksum: 10c0/4620b62aaca4b3b610202513652872756d7f4a8b84b2cea6b798dd6e8ccdfe43944b956c6a6a8cb5da0b0fe61bef6caca273d198ba32b5c658df22a6c7371b1b
+  checksum: 10c0/123215540c816ff510737ec68dcc499c53ea4deb0bb6c2c27c03ed21046e2e69f6ad07a7a174d271c6cfcbcc9ea44e1763e0cf3875c92192f7689216174803cd
   languageName: node
   linkType: hard
 
@@ -228,15 +228,15 @@ __metadata:
   linkType: hard
 
 "@emotion/serialize@npm:^1.2.0, @emotion/serialize@npm:^1.3.0, @emotion/serialize@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "@emotion/serialize@npm:1.3.1"
+  version: 1.3.2
+  resolution: "@emotion/serialize@npm:1.3.2"
   dependencies:
     "@emotion/hash": "npm:^0.9.2"
     "@emotion/memoize": "npm:^0.9.0"
     "@emotion/unitless": "npm:^0.10.0"
-    "@emotion/utils": "npm:^1.4.0"
+    "@emotion/utils": "npm:^1.4.1"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/ac7158e2881b5f3f9ca1e4d865186d38623f997de888675297e0928b202d16273e43b0a19aa021c0b706edefae31118bc97c5fab095820109d09d502dbcf2092
+  checksum: 10c0/b4873b643721d28b4450f9d77b71e6c8d0109e6825c54fc79e649d2fa438fe4080d2fa696ec8fda421b8e713fcd42306d6197b6121ddd2486ffab8e4b6311ce0
   languageName: node
   linkType: hard
 
@@ -300,10 +300,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/utils@npm:^1.2.1, @emotion/utils@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "@emotion/utils@npm:1.4.0"
-  checksum: 10c0/b2ae698d6e935f4961a8349286b5b0a6117a16e179459cbf9c8d97d5daa7d96c99876b950f09b1a793d6b295713b2c8f89544bd8c3f26b8e4db60a218a0d4c42
+"@emotion/utils@npm:^1.2.1, @emotion/utils@npm:^1.4.0, @emotion/utils@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@emotion/utils@npm:1.4.1"
+  checksum: 10c0/f4704e0bdf48062fd6eb9c64771c88f521aab1e108a48cb23d65b6438597c63a6945301cef4c43611e79e0e76a304ec5481c31025ea8f573d7ad5423d747602c
   languageName: node
   linkType: hard
 
@@ -808,11 +808,11 @@ __metadata:
   linkType: hard
 
 "@oclif/plugin-help@npm:^6.2.8":
-  version: 6.2.11
-  resolution: "@oclif/plugin-help@npm:6.2.11"
+  version: 6.2.12
+  resolution: "@oclif/plugin-help@npm:6.2.12"
   dependencies:
     "@oclif/core": "npm:^4"
-  checksum: 10c0/81a100d20334455bf3bf92b35113a6432777de16bd5210241e7a7ea6de993605c7f2217b6234ed50ee3df33cd8e2eadabce5143d5f18c55fdb13bec2eb741741
+  checksum: 10c0/e9cfd118720bff9ae1ffee39638606bb664ecf98bb21441a68ee8621906d71491261709cfd64ae6f2fde0064d25e51806e6e427260ec339f45d5f4e430f06112
   languageName: node
   linkType: hard
 
@@ -929,9 +929,9 @@ __metadata:
   linkType: hard
 
 "@types/prop-types@npm:*, @types/prop-types@npm:^15.7.12":
-  version: 15.7.12
-  resolution: "@types/prop-types@npm:15.7.12"
-  checksum: 10c0/1babcc7db6a1177779f8fde0ccc78d64d459906e6ef69a4ed4dd6339c920c2e05b074ee5a92120fe4e9d9f1a01c952f843ebd550bee2332fc2ef81d1706878f8
+  version: 15.7.13
+  resolution: "@types/prop-types@npm:15.7.13"
+  checksum: 10c0/1b20fc67281902c6743379960247bc161f3f0406ffc0df8e7058745a85ea1538612109db0406290512947f9632fe9e10e7337bf0ce6338a91d6c948df16a7c61
   languageName: node
   linkType: hard
 
@@ -1638,9 +1638,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001646":
-  version: 1.0.30001660
-  resolution: "caniuse-lite@npm:1.0.30001660"
-  checksum: 10c0/d28900b56c597176d515c3175ca75c454f2d30cb2c09a44d7bdb009bb0c4d8a2557905adb77642889bbe9feb85fbfe9d974c8b8e53521fb4b50ee16ab246104e
+  version: 1.0.30001662
+  resolution: "caniuse-lite@npm:1.0.30001662"
+  checksum: 10c0/4af44610db30b9e63443d984be9d48ab93eef584609b3e87201c10972b9daff0b52674e3ed01f7b7b240460763428a3aa8ef7328d14b76ed31ed464203677007
   languageName: node
   linkType: hard
 
@@ -1959,14 +1959,14 @@ __metadata:
   linkType: hard
 
 "contentful-management@npm:^11.0.1, contentful-management@npm:^11.31.6":
-  version: 11.33.0
-  resolution: "contentful-management@npm:11.33.0"
+  version: 11.35.0
+  resolution: "contentful-management@npm:11.35.0"
   dependencies:
     "@contentful/rich-text-types": "npm:^16.6.1"
     axios: "npm:^1.7.4"
     contentful-sdk-core: "npm:^8.3.1"
     fast-copy: "npm:^3.0.0"
-  checksum: 10c0/27885cf0bce0d0acb23cba0ca65a9ba921ea834bbb30d601488d137a3cf12f90b4a46db52541f908bacc1f595442d771a9b42538a41fef94f3355a1adb5337ba
+  checksum: 10c0/3ed3716f776462fa39a422ecccb0aa0306e11c0c72f533c15e1a6d5c61bda63691456095d5ac02c1691204c73aa2c2e89ac6d4815a7d1dac3d346cff6743b326
   languageName: node
   linkType: hard
 
@@ -1980,15 +1980,15 @@ __metadata:
   linkType: hard
 
 "contentful-sdk-core@npm:^8.3.1":
-  version: 8.3.1
-  resolution: "contentful-sdk-core@npm:8.3.1"
+  version: 8.3.2
+  resolution: "contentful-sdk-core@npm:8.3.2"
   dependencies:
     fast-copy: "npm:^2.1.7"
     lodash.isplainobject: "npm:^4.0.6"
     lodash.isstring: "npm:^4.0.1"
     p-throttle: "npm:^4.1.1"
     qs: "npm:^6.11.2"
-  checksum: 10c0/c0df907dbb9d6b6b8d6c2670b66c36b55f00606f9d94d2ec814513a9fcbbcae79425ac82b65e9fb10d0540255aae7f30e688645a6748d9b14f6dda8ca0560373
+  checksum: 10c0/f0623dc8b1ed8df8dd3adf8bc2ddef81d36ce697519a8ff5351a70f3497ee7b403b8b23a9c438a9a4d9ee51afad0bb83d3cae370de2b481566cca699f1a98c80
   languageName: node
   linkType: hard
 
@@ -2321,9 +2321,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.4":
-  version: 1.5.23
-  resolution: "electron-to-chromium@npm:1.5.23"
-  checksum: 10c0/a2f76d3ffae24635ff13597a7e4ddd73bd7ee2124e021d34a60faafc5a1afda567e6d26c0c84abc5c2d7622d9daf9bb25ed7dd2970019dcf4b9a28c02c13cab4
+  version: 1.5.27
+  resolution: "electron-to-chromium@npm:1.5.27"
+  checksum: 10c0/4a057f469a01829884f2a51f3fc60af7e6a718b15009e4875df122fcdf13babea475ba029af1652a6875b4acfca730c48b13caac5d477d648e622699d3b662bf
   languageName: node
   linkType: hard
 
