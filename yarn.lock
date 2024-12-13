@@ -123,13 +123,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentful/content-source-maps@npm:^0.11.0, @contentful/content-source-maps@npm:^0.11.6":
+"@contentful/content-source-maps@npm:^0.11.0":
   version: 0.11.6
   resolution: "@contentful/content-source-maps@npm:0.11.6"
   dependencies:
     "@vercel/stega": "npm:^0.1.2"
     json-pointer: "npm:^0.6.2"
   checksum: 10c0/10cd0ef4f8c4df03c3760ef9e0e018c1b22942c849f419921d5ce15beec24448816b5e69763c975c414f2638f98322321782a99c750f5e22f6813b0155e257c5
+  languageName: node
+  linkType: hard
+
+"@contentful/content-source-maps@npm:^0.11.7":
+  version: 0.11.7
+  resolution: "@contentful/content-source-maps@npm:0.11.7"
+  dependencies:
+    "@vercel/stega": "npm:^0.1.2"
+    json-pointer: "npm:^0.6.2"
+  checksum: 10c0/e8def0b102cebdff3212468942c2a329fbeaf22ad36b36674944ae8c0045cbf69c5e99692b260c739f1b261787d32cf7bb7456cdf905867d5cca9848ca0e6505
   languageName: node
   linkType: hard
 
@@ -2251,17 +2261,17 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^11.0.0, contentful@npm:^11.1.4":
-  version: 11.3.1
-  resolution: "contentful@npm:11.3.1"
+  version: 11.3.2
+  resolution: "contentful@npm:11.3.2"
   dependencies:
-    "@contentful/content-source-maps": "npm:^0.11.6"
+    "@contentful/content-source-maps": "npm:^0.11.7"
     "@contentful/rich-text-types": "npm:^16.6.1"
     axios: "npm:^1.7.4"
     contentful-resolve-response: "npm:^1.9.0"
     contentful-sdk-core: "npm:^9.0.1"
     json-stringify-safe: "npm:^5.0.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/825c00b4379521cf619b7da351e45452e65dc56f8b2c4d5a5c8fea214ea8134061cc207b3f253c41db57dbfd5c89fa82eb5fe6a066cbe0c20b85500910fe06fe
+  checksum: 10c0/8cd81eb71a8b070be712cfabaec89cc2d65186243c7ac67896c35c735b890d67a85a1927a5f51659e303bf022114a0fdf3e6029c6512c7456f97b6e346ec65a4
   languageName: node
   linkType: hard
 
