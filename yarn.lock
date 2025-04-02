@@ -1147,11 +1147,11 @@ __metadata:
   linkType: hard
 
 "@types/react-dom@npm:^19.0.0":
-  version: 19.0.4
-  resolution: "@types/react-dom@npm:19.0.4"
+  version: 19.1.1
+  resolution: "@types/react-dom@npm:19.1.1"
   peerDependencies:
     "@types/react": ^19.0.0
-  checksum: 10c0/4e71853919b94df9e746a4bd73f8180e9ae13016333ce9c543dcba9f4f4c8fe6e28b038ca6ee61c24e291af8e03ca3bc5ded17c46dee938fcb32d71186fda7a3
+  checksum: 10c0/83833af502f501a372b370fdeb7cf933dfc8780903fe0e0d6e6a76b4ea3adbe5316159a62a0388d8afdd409afd76a40959e2ce82fbb788f57d32c786a63601ee
   languageName: node
   linkType: hard
 
@@ -1165,11 +1165,11 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:^19.0.0":
-  version: 19.0.12
-  resolution: "@types/react@npm:19.0.12"
+  version: 19.1.0
+  resolution: "@types/react@npm:19.1.0"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10c0/c814b6af5c0fbcf5c65d031b1c9bf98c5b857e015254d95811f2851b27b869c3d31c6f35dab127dc6921a3dbda0b0622c6323d493a14b31b231a6a58c41c5e84
+  checksum: 10c0/632fd20ee176e55801a61c5f854141b043571a3e363ef106b047b766a813a12735cbb37abb3d61d126346979f530f2ed269a60c8ef3cdee54e5e9fe4174e5dad
   languageName: node
   linkType: hard
 
@@ -2232,8 +2232,8 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^11.0.0, contentful@npm:^11.5.10":
-  version: 11.5.11
-  resolution: "contentful@npm:11.5.11"
+  version: 11.5.12
+  resolution: "contentful@npm:11.5.12"
   dependencies:
     "@contentful/content-source-maps": "npm:^0.11.8"
     "@contentful/rich-text-types": "npm:^16.6.1"
@@ -2242,7 +2242,7 @@ __metadata:
     contentful-sdk-core: "npm:^9.0.1"
     json-stringify-safe: "npm:^5.0.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/960dd90fda5d73e2c831ebe7effa45715e9fb80e7b6bfed2a5bf8b0d974d0b45091798ec178316dd53a9f132426a25ba1a91e7e208010f2f0023dc752a2f64e1
+  checksum: 10c0/4f65951bc011e49f88202f2a631f58d2e3a0f3b9066767a6d450f3f63a437af59b5c8b1e1f733a289bdb0c1f01352eb7482fd9bac3c8f82742acadb165a8ec10
   languageName: node
   linkType: hard
 
@@ -2476,7 +2476,7 @@ __metadata:
     postcss: "npm:8.5.3"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
-    tailwindcss: "npm:4.1.0"
+    tailwindcss: "npm:4.1.1"
     typescript: "npm:^5.2.2"
   languageName: unknown
   linkType: soft
@@ -5817,10 +5817,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.1.0":
-  version: 4.1.0
-  resolution: "tailwindcss@npm:4.1.0"
-  checksum: 10c0/59c83ba4528021da14b9713041a393674447f3af2998aea9c89f210d9a3393826427215a912b1d62cf315651c22ee20ad42edcaefc68a9b816016d25a857cf14
+"tailwindcss@npm:4.1.1":
+  version: 4.1.1
+  resolution: "tailwindcss@npm:4.1.1"
+  checksum: 10c0/148b5650601fe4774ed01275602f97fd1d1b83ecb9239aeb499c1a36b08d04fd7d5124b423e675c3fe03d5fb5686b8570d433aa4aa424e25a63df316f8999d17
   languageName: node
   linkType: hard
 
