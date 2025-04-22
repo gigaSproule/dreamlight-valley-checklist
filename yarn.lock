@@ -1917,12 +1917,12 @@ __metadata:
   linkType: hard
 
 "cf-content-types-generator@npm:^2.12.2":
-  version: 2.15.5
-  resolution: "cf-content-types-generator@npm:2.15.5"
+  version: 2.16.0
+  resolution: "cf-content-types-generator@npm:2.16.0"
   dependencies:
     "@oclif/core": "npm:^3.27.0"
     "@oclif/plugin-help": "npm:^6.2.8"
-    contentful: "npm:^10.14.1"
+    contentful: "npm:^10.15.1"
     contentful-export: "npm:^7.19.147"
     contentful-management: "npm:^11.31.6"
     fs-extra: "npm:^11.2.0"
@@ -1930,7 +1930,7 @@ __metadata:
     ts-morph: "npm:^23.0.0"
   bin:
     cf-content-types-generator: bin/run
-  checksum: 10c0/09256a89647e992a0368fabb0b86e408e5d3c3bccb2537b9c2bf941cf64269408b80a0b91654eca144b26931995c24e75c08a04c0e1f3d3640ede0ef75a3fb1b
+  checksum: 10c0/9604bb0a7d28e51fee05195f1eab04118554bd9c16a1b00ec68adae521a1dc494c87dd81bbfb1f84e571c9c0906014a65762d48c49d67039cb84f08be6e4431e
   languageName: node
   linkType: hard
 
@@ -2230,7 +2230,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"contentful@npm:^10.14.1":
+"contentful@npm:^10.15.1":
   version: 10.15.1
   resolution: "contentful@npm:10.15.1"
   dependencies:
