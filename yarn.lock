@@ -1188,11 +1188,11 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:^19.0.0":
-  version: 19.1.3
-  resolution: "@types/react@npm:19.1.3"
+  version: 19.1.4
+  resolution: "@types/react@npm:19.1.4"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10c0/f158f88871b8df1eeed637942d3e6142abcf505b617e4921ef3763b6d4f22241b9a883d864878dd2b6a2bdc8f4e7f871f24ef88f633d144a63257f4764b9478d
+  checksum: 10c0/501350d4f9cef13c5dd1b1496fa70ebaff52f6fa359b623b51c9d817e5bc4333fa3c8b7a6a4cbc88c643385052d66a243c3ceccfd6926062f917a2dd0535f6b3
   languageName: node
   linkType: hard
 
@@ -2319,8 +2319,8 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^11.0.0, contentful@npm:^11.5.10":
-  version: 11.5.21
-  resolution: "contentful@npm:11.5.21"
+  version: 11.5.22
+  resolution: "contentful@npm:11.5.22"
   dependencies:
     "@contentful/content-source-maps": "npm:^0.11.8"
     "@contentful/rich-text-types": "npm:^16.6.1"
@@ -2329,7 +2329,7 @@ __metadata:
     contentful-sdk-core: "npm:^9.0.1"
     json-stringify-safe: "npm:^5.0.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/f1d345e12f674e32f62d7dd93e0a113e05cd5a62cfd8218a6d9093dc5445366e96d2fdb1630bc52ed65ba78ac1e6c3ad5ee5fe55cf87c384a02c429fbbc59525
+  checksum: 10c0/a1b783c5a7ad719ad51bc271423f4cc59b361cd4c542a7c79fa56db958c2d38615809461199cfaad9fe92fb2f035929a92d745477d40fdf33236b45d0652de8e
   languageName: node
   linkType: hard
 
