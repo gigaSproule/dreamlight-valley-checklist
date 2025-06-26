@@ -273,8 +273,8 @@ __metadata:
   linkType: hard
 
 "@emotion/styled@npm:^11.11.0":
-  version: 11.14.0
-  resolution: "@emotion/styled@npm:11.14.0"
+  version: 11.14.1
+  resolution: "@emotion/styled@npm:11.14.1"
   dependencies:
     "@babel/runtime": "npm:^7.18.3"
     "@emotion/babel-plugin": "npm:^11.13.5"
@@ -288,7 +288,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/20aa5c488e4edecf63659212fc5ba1ccff2d3a66593fc8461de7cd5fe9192a741db357ffcd270a455bd61898d7f37cd5c84b4fd2b7974dade712badf7860ca9c
+  checksum: 10c0/2bbf8451df49c967e41fbcf8111a7f6dafe6757f0cc113f2f6e287206c45ac1d54dc8a95a483b7c0cee8614b8a8d08155bded6453d6721de1f8cc8d5b9216963
   languageName: node
   linkType: hard
 
@@ -2545,9 +2545,9 @@ __metadata:
   linkType: hard
 
 "dotenv@npm:^16.3.1":
-  version: 16.5.0
-  resolution: "dotenv@npm:16.5.0"
-  checksum: 10c0/5bc94c919fbd955bf0ba44d33922a1e93d1078e64a1db5c30faeded1d996e7a83c55332cb8ea4fae5a9ca4d0be44cbceb95c5811e70f9f095298df09d1997dd9
+  version: 16.6.0
+  resolution: "dotenv@npm:16.6.0"
+  checksum: 10c0/c1029a8656e03abc53c0522baf733131ffd4e633d8ab66c3f2d470ebdd7c5d143ffab64945afc475e60c5f803f0e734a9f9247949d17cc8ff564fba5c15978b1
   languageName: node
   linkType: hard
 
