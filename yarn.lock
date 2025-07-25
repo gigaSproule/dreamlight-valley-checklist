@@ -1817,6 +1817,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "axios@npm:1.11.0"
+  dependencies:
+    follow-redirects: "npm:^1.15.6"
+    form-data: "npm:^4.0.4"
+    proxy-from-env: "npm:^1.1.0"
+  checksum: 10c0/5de273d33d43058610e4d252f0963cc4f10714da0bfe872e8ef2cbc23c2c999acc300fd357b6bce0fc84a2ca9bd45740fa6bb28199ce2c1266c8b1a393f2b36e
+  languageName: node
+  linkType: hard
+
 "axios@npm:^1.7.4, axios@npm:^1.8.4":
   version: 1.10.0
   resolution: "axios@npm:1.10.0"
@@ -2317,17 +2328,17 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^11.0.0, contentful@npm:^11.5.10":
-  version: 11.7.12
-  resolution: "contentful@npm:11.7.12"
+  version: 11.7.13
+  resolution: "contentful@npm:11.7.13"
   dependencies:
     "@contentful/content-source-maps": "npm:^0.11.8"
     "@contentful/rich-text-types": "npm:^16.6.1"
-    axios: "npm:^1.8.4"
+    axios: "npm:^1.11.0"
     contentful-resolve-response: "npm:^1.9.0"
     contentful-sdk-core: "npm:^9.0.1"
     json-stringify-safe: "npm:^5.0.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/53c745084d8f94606710729bf0a663f29901c1fc94569e4478f6f89daed5b752850a7eb93ea694962f4dd664a5e803890ea57288f156ccf8f9f75bca1c9200a7
+  checksum: 10c0/e8e5287639c0c56770896e78c849e40c3a373bc69cf930226f3893c41e5179d1483e4538cbc04fee0593c06838e83ebebc8b2e57300451b684a81ec6fe4ed34a
   languageName: node
   linkType: hard
 
@@ -3334,7 +3345,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"form-data@npm:^4.0.0":
+"form-data@npm:^4.0.0, form-data@npm:^4.0.4":
   version: 4.0.4
   resolution: "form-data@npm:4.0.4"
   dependencies:
