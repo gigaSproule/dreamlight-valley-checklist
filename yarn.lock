@@ -195,12 +195,12 @@ __metadata:
   linkType: hard
 
 "@contentful/content-source-maps@npm:^0.11.0, @contentful/content-source-maps@npm:^0.11.33":
-  version: 0.11.39
-  resolution: "@contentful/content-source-maps@npm:0.11.39"
+  version: 0.11.40
+  resolution: "@contentful/content-source-maps@npm:0.11.40"
   dependencies:
     "@vercel/stega": "npm:^0.1.2"
     json-pointer: "npm:^0.6.2"
-  checksum: 10c0/7f8f25a208bde4a8812b67872d7f4ed73e96821d4070e009962e44f1472dde6c9842d5a706fd98999ead87be97af2c109503f0534b4f3932552eae3d2827cb98
+  checksum: 10c0/9796da9f88f813d021ae47b92f6351a736443e58978d3ea478e9d4a1c908b12554ae837f064a153b1278ecc8ea9b765f75bc170a33a329d15aea80994099dade
   languageName: node
   linkType: hard
 
@@ -1088,8 +1088,8 @@ __metadata:
   linkType: hard
 
 "@oclif/core@npm:^4":
-  version: 4.7.2
-  resolution: "@oclif/core@npm:4.7.2"
+  version: 4.8.0
+  resolution: "@oclif/core@npm:4.8.0"
   dependencies:
     ansi-escapes: "npm:^4.3.2"
     ansis: "npm:^3.17.0"
@@ -1109,16 +1109,16 @@ __metadata:
     widest-line: "npm:^3.1.0"
     wordwrap: "npm:^1.0.0"
     wrap-ansi: "npm:^7.0.0"
-  checksum: 10c0/1ea5d7556916489ad04d69d7843e5efd576cbeca3d7fc63411343b9903e78d8fd23a0ff1f8fc7dac0ef7a38689e69ac282d4103d4efe5b29d64975a78e477ac9
+  checksum: 10c0/83347c86250390b9c53d7eeb4f85adcc57578827b2de65be606b609290f4101f24b4245bd9c1dbeaca10a5e29c3fc68eaa3b5efa5f801d222e4f8e59691e8a86
   languageName: node
   linkType: hard
 
 "@oclif/plugin-help@npm:^6.2.8":
-  version: 6.2.34
-  resolution: "@oclif/plugin-help@npm:6.2.34"
+  version: 6.2.35
+  resolution: "@oclif/plugin-help@npm:6.2.35"
   dependencies:
     "@oclif/core": "npm:^4"
-  checksum: 10c0/2850484873703d7dad2f384362027bfe5eadd2138a929c58fd87b9016249c2897a5c7505e0f2d6154474a8f9a9b0826c93f228c3ef67935c17333982521594f2
+  checksum: 10c0/b9782abce120f76e3b1586e45d068eca6395ae36f0db6230a23b618984029ca8671bf99bc853a7f41c099b8e63ce7e220d86ad1c01a6ae96453db65dba564918
   languageName: node
   linkType: hard
 
@@ -1894,13 +1894,13 @@ __metadata:
   linkType: hard
 
 "axios@npm:^1.12.2, axios@npm:^1.7.4, axios@npm:^1.8.4":
-  version: 1.12.2
-  resolution: "axios@npm:1.12.2"
+  version: 1.13.1
+  resolution: "axios@npm:1.13.1"
   dependencies:
     follow-redirects: "npm:^1.15.6"
     form-data: "npm:^4.0.4"
     proxy-from-env: "npm:^1.1.0"
-  checksum: 10c0/80b063e318cf05cd33a4d991cea0162f3573481946f9129efb7766f38fde4c061c34f41a93a9f9521f02b7c9565ccbc197c099b0186543ac84a24580017adfed
+  checksum: 10c0/de9c3c6de43d3ee1146d3afe78645f19450cac6a5d7235bef8b8e8eeb705c2e47e2d231dea99cecaec4dae1897c521118ca9413b9d474063c719c4d94c5b9adc
   languageName: node
   linkType: hard
 
@@ -1930,11 +1930,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.8.19":
-  version: 2.8.20
-  resolution: "baseline-browser-mapping@npm:2.8.20"
+  version: 2.8.23
+  resolution: "baseline-browser-mapping@npm:2.8.23"
   bin:
     baseline-browser-mapping: dist/cli.js
-  checksum: 10c0/6e2a5141e4a95e24bdf8539a9cb92ed4f6fb3974713ef8d8d1a7de9ec571ad1d38d7f90cd061496ad7790bdbf50cc21d9398e19647c065af4065540becd0a277
+  checksum: 10c0/5a63c1c241d288e5c79aa32a1cbea335b5af899172161aa9f9701a67c5b9b55ea3b3945a70a842385374627dde1de27504641bc95257d8c2e81f0c593c719121
   languageName: node
   linkType: hard
 
@@ -2055,9 +2055,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001702, caniuse-lite@npm:^1.0.30001751":
-  version: 1.0.30001751
-  resolution: "caniuse-lite@npm:1.0.30001751"
-  checksum: 10c0/c3f2d448f3569004ace160fd9379ea0def8e7a7bc6e65611baadb57d24e1f418258647a6210e46732419f5663e2356c22aa841f92449dd3849eb6471bb7ad592
+  version: 1.0.30001753
+  resolution: "caniuse-lite@npm:1.0.30001753"
+  checksum: 10c0/730344b6c54769f544f1d4bd7f99a122cd5f6e964e482adbcb18b63cda56e9c40aca1e3ab47c7154098803c9ba3772cca0aba936d1c924e67e8db8345712e5a8
   languageName: node
   linkType: hard
 
@@ -2310,8 +2310,8 @@ __metadata:
   linkType: hard
 
 "contentful-export@npm:^7.19.147":
-  version: 7.21.93
-  resolution: "contentful-export@npm:7.21.93"
+  version: 7.21.97
+  resolution: "contentful-export@npm:7.21.97"
   dependencies:
     axios: "npm:^1.8.4"
     bfj: "npm:^8.0.0"
@@ -2331,20 +2331,20 @@ __metadata:
     yargs: "npm:^18.0.0"
   bin:
     contentful-export: bin/contentful-export
-  checksum: 10c0/427b19beb0da9de3fa23597ceed1c718c649bc235984b3cbb2d3a36fc20283b53e8ef26c3e2c462be3155da13635444c319cb3acfad1777002ea544b2a23a1c5
+  checksum: 10c0/2058559df6c8e93b4a17bb7ffbb65f7e30fb42c94278f4860eeb1c03c66f691ce34b542a2f475d231170571059c6d608b758ab8b0868c1b7a5320e15b53f258c
   languageName: node
   linkType: hard
 
 "contentful-management@npm:^11.31.6, contentful-management@npm:^11.48.1":
-  version: 11.61.0
-  resolution: "contentful-management@npm:11.61.0"
+  version: 11.62.0
+  resolution: "contentful-management@npm:11.62.0"
   dependencies:
     "@contentful/rich-text-types": "npm:^16.6.1"
     axios: "npm:^1.12.2"
     contentful-sdk-core: "npm:^9.0.1"
     fast-copy: "npm:^3.0.0"
     globals: "npm:^15.15.0"
-  checksum: 10c0/979c66cd7013cf0568049b60d10d088367a092f8eaab37b06360110c5e9812167c7812634393c7f7e0e5713ac5e75fb1459826497586740fc5330c76b53b06ba
+  checksum: 10c0/afa30ef67e4173e6b7372f80e914b0e1eefcb6b168e8b2a3b3e4218e356a8abca0439076c58dd298c241cc57ddc030c848e7e04f12f4966ba43b02476ce07ed6
   languageName: node
   linkType: hard
 
@@ -2700,9 +2700,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.238":
-  version: 1.5.240
-  resolution: "electron-to-chromium@npm:1.5.240"
-  checksum: 10c0/f304ba15eca69b6c67774924e7b4ca68dd40de6173ffd9a5695ae0dae369fe2dbe3284545cd63c25b9ec03df3c0feaf0a9329a2ddaaa849e8c53c25750cfe000
+  version: 1.5.244
+  resolution: "electron-to-chromium@npm:1.5.244"
+  checksum: 10c0/a3cbc8c9c9415234f97e92724924f943fcb82494b3a2f9ae998954d22496e86f7eaf5e2fceca8aa8be098b0693f508332ec2d3b4b39a42cd2de1fac4d048a19f
   languageName: node
   linkType: hard
 
@@ -4881,9 +4881,9 @@ __metadata:
   linkType: hard
 
 "node-releases@npm:^2.0.26":
-  version: 2.0.26
-  resolution: "node-releases@npm:2.0.26"
-  checksum: 10c0/033539b947ad329e0c996e563a97cdf295163ecbfd500edc3e5bc19d1a854d9515fcaae3967ac07243aff5378f572f18b36c5f50c3aa1fc3aac43fc9c4924e4d
+  version: 2.0.27
+  resolution: "node-releases@npm:2.0.27"
+  checksum: 10c0/f1e6583b7833ea81880627748d28a3a7ff5703d5409328c216ae57befbced10ce2c991bea86434e8ec39003bd017f70481e2e5f8c1f7e0a7663241f81d6e00e2
   languageName: node
   linkType: hard
 
