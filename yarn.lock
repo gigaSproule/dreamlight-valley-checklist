@@ -1878,13 +1878,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.4.21":
-  version: 10.4.21
-  resolution: "autoprefixer@npm:10.4.21"
+"autoprefixer@npm:10.4.22":
+  version: 10.4.22
+  resolution: "autoprefixer@npm:10.4.22"
   dependencies:
-    browserslist: "npm:^4.24.4"
-    caniuse-lite: "npm:^1.0.30001702"
-    fraction.js: "npm:^4.3.7"
+    browserslist: "npm:^4.27.0"
+    caniuse-lite: "npm:^1.0.30001754"
+    fraction.js: "npm:^5.3.4"
     normalize-range: "npm:^0.1.2"
     picocolors: "npm:^1.1.1"
     postcss-value-parser: "npm:^4.2.0"
@@ -1892,7 +1892,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 10c0/de5b71d26d0baff4bbfb3d59f7cf7114a6030c9eeb66167acf49a32c5b61c68e308f1e0f869d92334436a221035d08b51cd1b2f2c4689b8d955149423c16d4d4
+  checksum: 10c0/2ae8d135af2deaaa5065a3a466c877787373c0ed766b8a8e8259d7871db79c1a7e1d9f6c9541c54fa95647511d3c2066bb08a30160e58c9bfa75506f9c18f3aa
   languageName: node
   linkType: hard
 
@@ -1948,7 +1948,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"baseline-browser-mapping@npm:^2.8.19":
+"baseline-browser-mapping@npm:^2.8.19, baseline-browser-mapping@npm:^2.8.25":
   version: 2.8.25
   resolution: "baseline-browser-mapping@npm:2.8.25"
   bin:
@@ -2005,7 +2005,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.24.0, browserslist@npm:^4.24.4":
+"browserslist@npm:^4.24.0":
   version: 4.27.0
   resolution: "browserslist@npm:4.27.0"
   dependencies:
@@ -2017,6 +2017,21 @@ __metadata:
   bin:
     browserslist: cli.js
   checksum: 10c0/395611e54374da9171cdbe7e3704ab426e0f1d622751392df6d6cbf60c539bf06cf2407e9dd769bc01ee2abca6a14af6509a2e0bbb448ba75a054db6c1840643
+  languageName: node
+  linkType: hard
+
+"browserslist@npm:^4.27.0":
+  version: 4.28.0
+  resolution: "browserslist@npm:4.28.0"
+  dependencies:
+    baseline-browser-mapping: "npm:^2.8.25"
+    caniuse-lite: "npm:^1.0.30001754"
+    electron-to-chromium: "npm:^1.5.249"
+    node-releases: "npm:^2.0.27"
+    update-browserslist-db: "npm:^1.1.4"
+  bin:
+    browserslist: cli.js
+  checksum: 10c0/4284fd568f7d40a496963083860d488cb2a89fb055b6affd316bebc59441fec938e090b3e62c0ee065eb0bc88cd1bc145f4300a16c75f3f565621c5823715ae1
   languageName: node
   linkType: hard
 
@@ -2073,7 +2088,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001702, caniuse-lite@npm:^1.0.30001751":
+"caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001751, caniuse-lite@npm:^1.0.30001754":
   version: 1.0.30001754
   resolution: "caniuse-lite@npm:1.0.30001754"
   checksum: 10c0/d38709ab11abc36eea28068d241434eba925c4d3462916ccaa17a34a6227dfdeb58ab0e1eb614bab12fb393c7d527db392a0f477b48c33d70d8e466954f381ba
@@ -2422,8 +2437,8 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^11.0.0, contentful@npm:^11.5.10":
-  version: 11.8.11
-  resolution: "contentful@npm:11.8.11"
+  version: 11.8.12
+  resolution: "contentful@npm:11.8.12"
   dependencies:
     "@contentful/content-source-maps": "npm:^0.11.33"
     "@contentful/rich-text-types": "npm:^16.6.1"
@@ -2432,7 +2447,7 @@ __metadata:
     contentful-sdk-core: "npm:^9.0.1"
     json-stringify-safe: "npm:^5.0.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/020d956082bd031e50887e2621ecc830fa895fc360ba136f9c1817295557aed2419a34332050a820bb9be39e0fb76e39e8fdc9342c3468c82f6d668c4bb1556a
+  checksum: 10c0/d1a4034c415ecb771f6055e1ced9532e6593123ab0c455214b1f2758fd683795ac7fa1fa3986919aadf1d648a344f9b5eca124cfad17f79621fdc68ee4a5ded8
   languageName: node
   linkType: hard
 
@@ -2662,7 +2677,7 @@ __metadata:
     "@types/node": "npm:^24.0.0"
     "@types/react": "npm:^19.0.0"
     "@types/react-dom": "npm:^19.0.0"
-    autoprefixer: "npm:10.4.21"
+    autoprefixer: "npm:10.4.22"
     cf-content-types-generator: "npm:^2.12.2"
     contentful: "npm:^11.0.0"
     dotenv: "npm:^17.0.0"
@@ -2722,6 +2737,13 @@ __metadata:
   version: 1.5.249
   resolution: "electron-to-chromium@npm:1.5.249"
   checksum: 10c0/f5ca6663786b30a063fe42c97a4c3fa8db946a055d5a7a940fbb57d9f86011222b8566048cdb973574f9d02ac44f02ece65eeebf99cc146a42059af7adfb4fe7
+  languageName: node
+  linkType: hard
+
+"electron-to-chromium@npm:^1.5.249":
+  version: 1.5.250
+  resolution: "electron-to-chromium@npm:1.5.250"
+  checksum: 10c0/ccd12850fb5fd1c6539cdd7936c28cb6fbae421568e9b8b9fa0eb754e6cc36408c83cf0440d7b776c8bd325b5b760a378719415a629a75eedaad12943c936061
   languageName: node
   linkType: hard
 
@@ -3463,10 +3485,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fraction.js@npm:^4.3.7":
-  version: 4.3.7
-  resolution: "fraction.js@npm:4.3.7"
-  checksum: 10c0/df291391beea9ab4c263487ffd9d17fed162dbb736982dee1379b2a8cc94e4e24e46ed508c6d278aded9080ba51872f1bc5f3a5fd8d7c74e5f105b508ac28711
+"fraction.js@npm:^5.3.4":
+  version: 5.3.4
+  resolution: "fraction.js@npm:5.3.4"
+  checksum: 10c0/f90079fe9bfc665e0a07079938e8ff71115bce9462f17b32fc283f163b0540ec34dc33df8ed41bb56f028316b04361b9a9995b9ee9258617f8338e0b05c5f95a
   languageName: node
   linkType: hard
 
@@ -4899,7 +4921,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-releases@npm:^2.0.26":
+"node-releases@npm:^2.0.26, node-releases@npm:^2.0.27":
   version: 2.0.27
   resolution: "node-releases@npm:2.0.27"
   checksum: 10c0/f1e6583b7833ea81880627748d28a3a7ff5703d5409328c216ae57befbced10ce2c991bea86434e8ec39003bd017f70481e2e5f8c1f7e0a7663241f81d6e00e2
