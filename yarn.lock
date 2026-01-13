@@ -2395,7 +2395,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"contentful-sdk-core@npm:^9.0.1":
+"contentful-sdk-core@npm:^9.0.1, contentful-sdk-core@npm:^9.4.1":
   version: 9.4.1
   resolution: "contentful-sdk-core@npm:9.4.1"
   dependencies:
@@ -2427,18 +2427,18 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^11.0.0, contentful@npm:^11.5.10":
-  version: 11.10.1
-  resolution: "contentful@npm:11.10.1"
+  version: 11.10.2
+  resolution: "contentful@npm:11.10.2"
   dependencies:
     "@contentful/content-source-maps": "npm:^0.11.33"
     "@contentful/rich-text-types": "npm:^16.6.1"
     axios: "npm:^1.12.2"
     contentful-resolve-response: "npm:^1.9.4"
-    contentful-sdk-core: "npm:^9.0.1"
+    contentful-sdk-core: "npm:^9.4.1"
     json-stringify-safe: "npm:^5.0.1"
     tslib: "npm:^2.8.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/2225a1b7565219cb4cba6bb17c4d2090788b3c990b335051db97686813a9577347055fc86d5be82cdb9fd19b9279cbc1d2ae4367e132c50863a54e289a471855
+  checksum: 10c0/99fc3dda6f5104b0897f20defe574dd6e770256d24c7c6bd338a605b1987061f3867505c916525be3093cd95f0b0bda4f26a0dac68164c7a3261d535e0ac489d
   languageName: node
   linkType: hard
 
