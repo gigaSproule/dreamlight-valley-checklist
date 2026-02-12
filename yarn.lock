@@ -2642,9 +2642,9 @@ __metadata:
   linkType: hard
 
 "dotenv@npm:^17.0.0":
-  version: 17.2.4
-  resolution: "dotenv@npm:17.2.4"
-  checksum: 10c0/901aeee9cb40860291bdb452f6ca66aada78438331a026b0bd86fd41b94a79752dbc6a8971f4f26e6cafef11b4a27bb12ea99c0cbe7dfa61791f194727f799e5
+  version: 17.3.0
+  resolution: "dotenv@npm:17.3.0"
+  checksum: 10c0/d65f817c2a05e77ca42def8a14c5b618fd9d4cf625de16103034296b8f9441e42461710e1e35ac82b74ca1fbe8f5d1e6863109ee945547f86d1acd18c062fa6b
   languageName: node
   linkType: hard
 
