@@ -1191,7 +1191,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.13.1":
+"@types/node@npm:24.13.3":
   version: 24.13.3
   resolution: "@types/node@npm:24.13.3"
   dependencies:
@@ -2577,7 +2577,7 @@ __metadata:
     "@emotion/styled": "npm:^11.11.0"
     "@mui/icons-material": "npm:^9.0.0"
     "@mui/material": "npm:^9.0.0"
-    "@types/node": "npm:^24.13.1"
+    "@types/node": "npm:24.13.3"
     "@types/react": "npm:19.2.17"
     "@types/react-dom": "npm:19.2.3"
     autoprefixer: "npm:10.5.4"
@@ -2586,13 +2586,13 @@ __metadata:
     dotenv: "npm:^17.0.0"
     eslint: "npm:10.7.0"
     eslint-config-next: "npm:16.2.10"
-    husky: "npm:^9.0.0"
+    husky: "npm:9.1.7"
     next: "npm:16.2.10"
     postcss: "npm:8.5.19"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
     tailwindcss: "npm:4.3.3"
-    typescript: "npm:^6.0.0"
+    typescript: "npm:6.0.3"
   languageName: unknown
   linkType: soft
 
@@ -3648,7 +3648,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^9.0.0":
+"husky@npm:9.1.7":
   version: 9.1.7
   resolution: "husky@npm:9.1.7"
   bin:
@@ -5954,7 +5954,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^6.0.0":
+"typescript@npm:6.0.3":
   version: 6.0.3
   resolution: "typescript@npm:6.0.3"
   bin:
@@ -5964,7 +5964,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^6.0.0#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>":
   version: 6.0.3
   resolution: "typescript@patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"
   bin:
