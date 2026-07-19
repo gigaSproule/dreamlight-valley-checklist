@@ -1826,12 +1826,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.5.3":
-  version: 10.5.3
-  resolution: "autoprefixer@npm:10.5.3"
+"autoprefixer@npm:10.5.4":
+  version: 10.5.4
+  resolution: "autoprefixer@npm:10.5.4"
   dependencies:
     browserslist: "npm:^4.28.6"
-    caniuse-lite: "npm:^1.0.30001805"
+    caniuse-lite: "npm:^1.0.30001806"
     fraction.js: "npm:^5.3.4"
     picocolors: "npm:^1.1.1"
     postcss-value-parser: "npm:^4.2.0"
@@ -1839,7 +1839,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 10c0/a166d39192a6ef735cd09c244c579cde560ae4bb7407073ac6ef2c0f26390bccd0ffa46f3b1b104526c862530e94755dddfa910b0c4d63073447e31de5d89d3e
+  checksum: 10c0/274ebc9fa50ac0d7a5aa9bc29baa502f2d2006f47a899dac2de4ba86c989defaa62b096e68692e15d53c9ed2b62c57dd047ceba61d344908d8b6e61f220a10e8
   languageName: node
   linkType: hard
 
@@ -2066,7 +2066,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001803, caniuse-lite@npm:^1.0.30001805":
+"caniuse-lite@npm:^1.0.30001803, caniuse-lite@npm:^1.0.30001806":
   version: 1.0.30001806
   resolution: "caniuse-lite@npm:1.0.30001806"
   checksum: 10c0/9442c8afff0968e9b2ce0104a7340c1ce4a5c09f469ccb9eef10d25712ea0afe542486e5318c697c70dd502f988cfc04eaa1c9438c92ac3bcf4d708a2a17bee1
@@ -2580,7 +2580,7 @@ __metadata:
     "@types/node": "npm:^24.13.1"
     "@types/react": "npm:^19.0.0"
     "@types/react-dom": "npm:^19.0.0"
-    autoprefixer: "npm:10.5.3"
+    autoprefixer: "npm:10.5.4"
     cf-content-types-generator: "npm:^3.0.0"
     contentful: "npm:^11.0.0"
     dotenv: "npm:^17.0.0"
@@ -2591,7 +2591,7 @@ __metadata:
     postcss: "npm:8.5.19"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
-    tailwindcss: "npm:4.3.2"
+    tailwindcss: "npm:4.3.3"
     typescript: "npm:^6.0.0"
   languageName: unknown
   linkType: soft
@@ -5768,10 +5768,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.3.2":
-  version: 4.3.2
-  resolution: "tailwindcss@npm:4.3.2"
-  checksum: 10c0/5a377846f77590812df234446175c4c2a45111a9626fd135e46f4552a33faee0d10c4e51aa5bbec955583265d48b380fb66c96f5da2775c961d4c26157617d19
+"tailwindcss@npm:4.3.3":
+  version: 4.3.3
+  resolution: "tailwindcss@npm:4.3.3"
+  checksum: 10c0/7e9cd7553cd890ffa5350efb0ca8971ba5435257d0f98bf0714994ac8f1fee5c7cdf9a9da47fe83e8ac995d728410837ac49d3ef5ea66b5afe1db312086ffae2
   languageName: node
   linkType: hard
 
