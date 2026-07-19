@@ -1214,7 +1214,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^19.0.0":
+"@types/react-dom@npm:19.2.3":
   version: 19.2.3
   resolution: "@types/react-dom@npm:19.2.3"
   peerDependencies:
@@ -1232,7 +1232,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.0.0":
+"@types/react@npm:19.2.17":
   version: 19.2.17
   resolution: "@types/react@npm:19.2.17"
   dependencies:
@@ -2578,8 +2578,8 @@ __metadata:
     "@mui/icons-material": "npm:^9.0.0"
     "@mui/material": "npm:^9.0.0"
     "@types/node": "npm:^24.13.1"
-    "@types/react": "npm:^19.0.0"
-    "@types/react-dom": "npm:^19.0.0"
+    "@types/react": "npm:19.2.17"
+    "@types/react-dom": "npm:19.2.3"
     autoprefixer: "npm:10.5.4"
     cf-content-types-generator: "npm:^3.0.0"
     contentful: "npm:^11.0.0"
