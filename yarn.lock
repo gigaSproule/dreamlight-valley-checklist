@@ -194,13 +194,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@contentful/content-source-maps@npm:^0.11.33":
-  version: 0.11.44
-  resolution: "@contentful/content-source-maps@npm:0.11.44"
+"@contentful/content-source-maps@npm:^0.12.0":
+  version: 0.12.3
+  resolution: "@contentful/content-source-maps@npm:0.12.3"
   dependencies:
-    "@vercel/stega": "npm:^0.1.2"
+    "@vercel/stega": "npm:^1.1.0"
     json-pointer: "npm:^0.6.2"
-  checksum: 10c0/d78920dae84c44963bb1029f2c9464fd10fcef1a13468eb05f167535465af47527fcc81fd5fecc35f51e34081202393b177ecd595bd58a0e8be755f6cb1da48a
+  checksum: 10c0/fa67fa3c1f62f1a21265764defec996351ce808abc4e66c09b52d9f763d06183d0d5ecc48999e43431829500a177ad135ae0881c39303da740cf8114e64e8132
   languageName: node
   linkType: hard
 
@@ -1562,10 +1562,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/stega@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@vercel/stega@npm:0.1.2"
-  checksum: 10c0/66eb80f286d46806004a2eacd215af80ad3cd443e7a96a6070d390dbb3f4d1f6e063013ec0d196c7fe852721d5dbe62e23b44c32975e36b18cda30e5e0728e04
+"@vercel/stega@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@vercel/stega@npm:1.1.0"
+  checksum: 10c0/64df5aff0e60c609be4a56dd8411085ad15d85bbad98627bfce2902ae3fbade5d5d7ecdcc1308b45896cf6f62303780f90387a5f70b7e08963726174efd0c149
   languageName: node
   linkType: hard
 
@@ -2350,12 +2350,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"contentful-resolve-response@npm:^1.9.4":
-  version: 1.9.9
-  resolution: "contentful-resolve-response@npm:1.9.9"
+"contentful-resolve-response@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "contentful-resolve-response@npm:2.0.1"
   dependencies:
     fast-copy: "npm:^3.0.2"
-  checksum: 10c0/cc29d0cc16d0900b6c51fc558ed61e636efd2ea0afa9e0d9affa6cb2a3e77ef79b2009f1454829fb4756fa9d837d6a244561de9c9ad44016274f8b43a660037e
+  checksum: 10c0/2703dfebb62435faac5c345d2779f6df057407a08b65d8bc544f8e542580656755524ee7924b2f82c2412ac74abe684f5e8cf4a9dd8b36ca07286e3cecdc0297
   languageName: node
   linkType: hard
 
@@ -2376,18 +2376,18 @@ __metadata:
   linkType: hard
 
 "contentful@npm:^11.0.0, contentful@npm:^11.12.0, contentful@npm:^11.5.10":
-  version: 11.12.7
-  resolution: "contentful@npm:11.12.7"
+  version: 11.12.9
+  resolution: "contentful@npm:11.12.9"
   dependencies:
-    "@contentful/content-source-maps": "npm:^0.11.33"
+    "@contentful/content-source-maps": "npm:^0.12.0"
     "@contentful/rich-text-types": "npm:^17.2.7"
     axios: "npm:^1.15.0"
-    contentful-resolve-response: "npm:^1.9.4"
+    contentful-resolve-response: "npm:^2.0.0"
     contentful-sdk-core: "npm:^9.4.4"
     json-stringify-safe: "npm:^5.0.1"
     tslib: "npm:^2.8.1"
     type-fest: "npm:^4.0.0"
-  checksum: 10c0/494ab62919c5f8e1bc055eab35b85398aec9039712aa6dba3765d3f12695d30d6a5e509c12928798c77b4c7ddfeb796c93f60fd078009651eea71f6bda2562fc
+  checksum: 10c0/6558c0d0f9f52287c6a49b17778fc23ec2de89fe5465151e478be6ad154acb1d738ec42de0a3f8c0159f374695635aaf55555b02fc1e28e9ca6d109a7066213c
   languageName: node
   linkType: hard
 
@@ -2616,7 +2616,7 @@ __metadata:
     eslint-config-next: "npm:16.3.0"
     husky: "npm:9.1.7"
     next: "npm:16.3.0"
-    postcss: "npm:8.5.25"
+    postcss: "npm:8.5.26"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
     tailwindcss: "npm:4.3.3"
@@ -4603,6 +4603,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.3.17":
+  version: 3.3.18
+  resolution: "nanoid@npm:3.3.18"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: 10c0/b994b4e396730f8be2520923284e2040d61eaee55cc6d4935ef6d38d34bafdc46133eda4d3faea5073bda545aa6079d82b886caeac5c731cf9ac18bcc1301425
+  languageName: node
+  linkType: hard
+
 "napi-postinstall@npm:^0.3.4":
   version: 0.3.4
   resolution: "napi-postinstall@npm:0.3.4"
@@ -4962,14 +4971,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.25":
-  version: 8.5.25
-  resolution: "postcss@npm:8.5.25"
+"postcss@npm:8.5.26":
+  version: 8.5.26
+  resolution: "postcss@npm:8.5.26"
   dependencies:
-    nanoid: "npm:^3.3.16"
+    nanoid: "npm:^3.3.17"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
-  checksum: 10c0/0a12c1e74b456c57122e81f684e02fd98ff4d57526f794d10c996df1147158808f5ae373ac82b988c8de6cbbaa82dbd7b13803b14f5dd3cf7cc6a42ccad5c9f2
+  checksum: 10c0/2bdafc00d96bd57b6649a52e458864a4bf58ee56cfdbe4aea1472b5cccc127e6c1ad653bd0bec50d211e650eb0b9270c80e1e72aff2e2fa40d9e7363234d6e43
   languageName: node
   linkType: hard
 
